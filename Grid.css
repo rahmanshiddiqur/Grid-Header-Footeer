@@ -1,3 +1,4 @@
+/* Grid style from here
 .head1 {
   text-align: center;
   background-color:#caf0f8 ;
@@ -41,3 +42,71 @@ grid-row: 2/4; grid-column: 4/5;}
 grid-column: 1/4;}
 .item7{ background-color: #005f73;
 grid-column: 1/-1;}
+
+#grid style finished here */
+
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color:#e7ecef ;
+}
+header {
+  width: 100%;
+  background-color: #0077b6;
+  display: flex;
+
+}
+.logo{
+  font-size: 35px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 20px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.navbar{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+
+}
+.navbar ul{
+  list-style: none;
+}
+.navbar ul li{
+  background-color: #48cae4;
+  width: 170px;
+  border: 1px solid #90e0ef;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  float: left;
+  color: #070707;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  margin: 2px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: #070707;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+}
+.navbar ul  :hover{
+  background-color: #3d5a80;
+  transition: all ease-in 0.5s;
+
+
+}
+.navbar ul ul {
+  display: none;
+}
+.navbar ul li:hover > ul{
+  display: block;
+}
